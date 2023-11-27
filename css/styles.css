@@ -59,8 +59,26 @@ img{
     display: flex;
 }
 
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 76px;
+}
+
+.contact-links{
+    gap: 40px;
+}
+
 .address-items {
     font-style: normal;
+}
+
+.address-links{
+    display: flex;
+    gap: 40px;
 }
 
 .address-items .list-address-item{
