@@ -34,6 +34,7 @@ img{
     font-weight: 500;
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .list-item {
@@ -258,6 +259,8 @@ img{
     background-color: #F4F4FD;
     cursor: pointer;
     padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-button:hover, portfolio-button:focus{
@@ -297,4 +300,17 @@ img{
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+}
+
+.image-link {
+    display: flex;
+    row-gap: 48px;
+}
+
+.image-link-item{
+
+}
+
+.image-link-text{
+    
 }
