@@ -286,10 +286,14 @@ img {
     border-radius: 4px;
 }
 
-.portfolio-button:hover,
+.portfolio-button:hover {
+    border: 1px solid transparent;
+}
+
 .portfolio-button:focus {
     border: 1px solid transparent;
 }
+
 
 .portfolio-link {
     text-decoration: none;
