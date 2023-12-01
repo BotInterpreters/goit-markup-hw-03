@@ -159,7 +159,7 @@ img{
 }
 
 .services-item {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 .section-header{
@@ -312,5 +312,5 @@ img{
 }
 
 .image-link-text{
-    
+
 }
