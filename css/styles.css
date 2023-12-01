@@ -66,6 +66,7 @@ img{
 
 .logo{
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .contact-links{
@@ -95,6 +96,12 @@ img{
 
 .hero-section {
     background: #2e2f42;
+    padding: 188px 0;
+}
+
+.hero-container{
+    max-width: 496px;
+    
 }
 
 .text-header {
