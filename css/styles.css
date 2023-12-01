@@ -72,6 +72,7 @@ img{
 }
 
 .contact-links{
+    display: flex;
     gap: 40px;
 }
 
@@ -82,6 +83,7 @@ img{
 .address-links{
     display: flex;
     gap: 40px;
+    padding: 24px 0px;
 }
 
 .address-items .list-address-item{
@@ -171,7 +173,7 @@ img{
 
 .gallery section{
     padding-bottom: 120px;
-    
+
 }
 
 .section-three-header{
