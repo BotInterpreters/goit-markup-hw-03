@@ -41,6 +41,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .list .list-item:focus , .list .list-item:hover {
@@ -74,6 +75,7 @@ img{
 .contact-links{
     display: flex;
     gap: 40px;
+    padding: 24px 0px;
 }
 
 .address-items {
@@ -114,7 +116,7 @@ img{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    width: 496px;
+    max-width: 496px;
 }
 
 .order-button{
@@ -145,12 +147,16 @@ img{
     padding: 120px 0;
 }
 
+.repeated-header{
+    visibility: hidden;
+}
+
 .services-header{
     margin-bottom: 8px;
 }
 
-.services-section-first-item{
-    width: calc((100% - 3 * 24px) / 4);
+.services-item {
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -171,9 +177,12 @@ img{
     text-decoration: none;
 }
 
-.gallery section{
+.gallery-section{
     padding-bottom: 120px;
+}
 
+.list-item{
+    width: calc((100% - 48px) / 3);
 }
 
 .section-three-header{
@@ -182,10 +191,13 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-section{
     background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 
 .section-our-team-header {
@@ -195,6 +207,7 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .list-item-team{
