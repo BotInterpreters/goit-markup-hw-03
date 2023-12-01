@@ -156,9 +156,8 @@ img{
 }
 
 .services-item {
-    width: calc((100% - 4 * 24px) / 4)
+    flex-basis: calc((100% - 72px) / 4)
 }
-
 
 .section-header{
     font-weight: 500;
@@ -182,7 +181,7 @@ img{
 }
 
 .gallery-item{
-    width: calc((100% - 3 * 16px) / 3)
+    width: 624px;
 }
 
 .section-three-header{
