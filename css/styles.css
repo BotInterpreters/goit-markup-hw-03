@@ -292,7 +292,9 @@ img{
     margin-bottom: 72px;
 }
 
-.images-link{
-    
+.portfolio-buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
-
